@@ -21,6 +21,14 @@ import sys.io.*;
 import js.html.*;
 #end
 
+//Note
+import objects.Note;
+import objects.note.Sustain;
+import util.NoteUtil;
+import objects.NoteSplash;
+import objects.note.NoteStrum;
+import objects.note.Event;
+
 import util.modding.FunkScript;
 import util.modding.ModdingUtil;
 
