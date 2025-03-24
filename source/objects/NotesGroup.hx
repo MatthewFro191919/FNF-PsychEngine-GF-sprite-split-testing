@@ -1,4 +1,4 @@
-package funkin.objects;
+package objects;
 
 import haxe.ds.Vector;
 import flixel.util.FlxSignal;
