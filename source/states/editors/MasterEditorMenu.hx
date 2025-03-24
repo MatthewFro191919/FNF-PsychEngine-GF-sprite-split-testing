@@ -4,6 +4,8 @@ import backend.WeekData;
 
 import objects.Character;
 
+import states.editors.AnimationDebug;
+
 import states.MainMenuState;
 import states.FreeplayState;
 
