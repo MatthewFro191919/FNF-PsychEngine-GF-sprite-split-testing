@@ -16,7 +16,6 @@ haxelib install hxvlc 2.0.1 --skip-dependencies
 haxelib set lime 8.1.2
 haxelib set openfl 9.3.3
 haxelib git flixel-ui https://github.com/HaxeFlixel/flixel-ui
-haxelib git hscript-iris https://github.com/pisayesiwsi/hscript-iris 8867c9a801a051e2bc5f9c03f06e8f88e6c574f9
 haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate 768740a56b26aa0c072720e0d1236b94afe68e3e
 haxelib git linc_luajit https://github.com/superpowers04/linc_luajit 1906c4a96f6bb6df66562b3f24c62f4c5bba14a7
 haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 22b1ce089dd924f15cdc4632397ef3504d464e90
