@@ -3195,6 +3195,14 @@ class PlayState extends MusicBeatState
 		instance = null;
 		super.destroy();
 	}
+	inline function addCharScript(char:Character) {
+		final script = ModdingUtil.addScript(Paths.script('characters/' + char.curCharacter), '_charScript_' + char.type);
+		if (script != null) {
+			char.script = script;
+			script.set('ScriptChar', char);
+			script.safeCall('createChar', [char]);
+		}
+	}
 
 	var lastStepHit:Int = -1;
 	override function stepHit()
