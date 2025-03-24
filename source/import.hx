@@ -21,6 +21,9 @@ import sys.io.*;
 import js.html.*;
 #end
 
+import util.modding.FunkScript;
+import util.modding.ModdingUtil;
+
 import backend.Paths;
 import backend.Controls;
 import backend.CoolUtil;
