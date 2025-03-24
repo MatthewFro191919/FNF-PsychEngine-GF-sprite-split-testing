@@ -3,7 +3,7 @@ package states.editors;
 import substates.PromptSubstate;
 
 import flixel.addons.display.FlxBackdrop;
-import funkin.substates.CharSelectSubstate;
+import substates.CharSelectSubstate;
 import flixel.addons.display.FlxGridOverlay;
 
 import flixel.addons.ui.FlxUIButton;
