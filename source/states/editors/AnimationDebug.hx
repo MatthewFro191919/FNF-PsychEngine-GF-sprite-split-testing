@@ -1,6 +1,6 @@
 package states.editors;
 
-import funkin.substates.PromptSubstate;
+import substates.PromptSubstate;
 
 import flixel.addons.display.FlxBackdrop;
 import funkin.substates.CharSelectSubstate;
