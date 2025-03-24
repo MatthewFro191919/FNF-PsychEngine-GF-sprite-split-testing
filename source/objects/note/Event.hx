@@ -1,6 +1,6 @@
 package objects.note;
 
-import funkin.objects.note.BasicNote.ITimingObject;
+import objects.note.BasicNote.ITimingObject;
 
 typedef EventData = {
     var description:String;
