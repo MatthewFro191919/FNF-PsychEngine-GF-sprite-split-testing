@@ -275,8 +275,6 @@ class Main extends Sprite
 		moonchart.backend.FormatDetector.defaultFileFormatter = (title, diff) -> {
 			return [diff.trim().toLowerCase()];
 		}
-
-		();
 	}
 
 	public static var DEFAULT_GRAPHIC(default, null):GlobalGraphic = null;
