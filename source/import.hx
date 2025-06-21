@@ -11,6 +11,8 @@ import funkin.Controls.getKey;
 import flixel.input.FlxInput.FlxInputState as InputType;
 import funkin.Preferences;
 import funkin.Preferences.getPref;
+#end
+
 #if mobile
 import funkin.MobileTouch;
 #end
