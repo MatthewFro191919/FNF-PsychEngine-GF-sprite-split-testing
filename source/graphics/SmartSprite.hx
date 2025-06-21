@@ -1,5 +1,7 @@
 package graphics;
 
+import graphics.FlxSkewRepeatSprite;
+
 // Makin this a bool cause its easier to store
 // If i add more render modes will turn it back into integers lol
 enum abstract RenderMode(Bool) from Bool {
