@@ -3,6 +3,8 @@ package funkin.graphics;
 import flixel.graphics.tile.FlxDrawQuadsItem;
 import flixel.graphics.frames.FlxFrame;
 
+import funkin.graphics.FlxRepeatSprite;
+
 /*
     TODO:
     add skew y support (_matrix.b) and fix problems with dynamically sized tiles
