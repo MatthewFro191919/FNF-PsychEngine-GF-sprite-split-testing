@@ -13,7 +13,6 @@ enum abstract HscriptFunctionCallback(Bool) {
 class FunkScript extends hscript.Script implements IFlxDestroyable
 {
 	public static var globalVariables:Map<String, Dynamic> = [];
-	public var active:Bool = true;
 	public var scriptID:String = '';
 
 	public function destroy():Void {
