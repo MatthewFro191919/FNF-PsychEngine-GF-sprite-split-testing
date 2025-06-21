@@ -50,7 +50,7 @@ import backend.Highscore;
 class InitState extends FlxState
 {
     override function create():Void
-	{
+    {
         super.create();
 
 		//Load Settings / Mods
@@ -69,7 +69,6 @@ class InitState extends FlxState
     }
 }
 
-// // // // // // // // //
 class Main extends Sprite
 {
 	final settings = {
@@ -374,5 +373,4 @@ class Main extends Sprite
 		Sys.exit(1);
 	}
 	#end
-    }
 }
