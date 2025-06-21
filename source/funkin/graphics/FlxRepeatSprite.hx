@@ -3,6 +3,8 @@ package funkin.graphics;
 import flixel.graphics.tile.FlxDrawQuadsItem;
 import flixel.graphics.frames.FlxFrame;
 
+import funkin.graphics.FlxSpriteExt;
+
 using flixel.util.FlxColorTransformUtil;
 
 enum abstract RepeatDrawStyle(Bool) from Bool {
