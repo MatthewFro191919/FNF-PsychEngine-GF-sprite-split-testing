@@ -95,7 +95,6 @@ class Main extends Sprite
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
 	public static var sprite:Main;
-	public static var game:FlxFunkGame;
 	#if !mobile
 	public static var fpsCounter:FPS_Mem; //The FPS display child
 	#end
@@ -373,4 +372,8 @@ class Main extends Sprite
 		Sys.exit(1);
 	}
 	#end
+}
+
+class GlobalGraphic extends FlxGraphic {
+	override function destroy() {} // Lol
 }
