@@ -2,7 +2,6 @@ package funkin.objects.alphabet;
 
 class MenuAlphabet extends Alphabet
 {
-    public var targetY:Float = 0;
     public var forceX:Bool = true;
     public var startX:Float = 0;
 
